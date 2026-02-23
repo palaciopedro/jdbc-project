@@ -8,31 +8,31 @@ import model.entities.Department;
 public class DepartmentDaoJDBC implements DefaultDao<Department> {
 
 	@Override
-	public void insert(Department o) {
+	public void insert() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void update(Department o) {
+	public void update() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void deleteById(Department o, int id) {
+	public void deleteById(int id) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Department findById(Department o, int id) {
+	public Department findById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Department> findAll(Department o) {
+	public List<Department> findAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
