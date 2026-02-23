@@ -13,7 +13,7 @@ public class Program {
 
 		DefaultDao<Seller> sellerDao = DaoFactory.createSellerDao();
 		
-		Seller seller = sellerDao.findById(new Seller(), 3);
+		Seller seller = sellerDao.findById(3);
  		
 		System.out.println(seller);
 	}

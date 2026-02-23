@@ -21,25 +21,25 @@ public class SellerDaoJDBC implements DefaultDao<Seller> {
 	}
 	
 	@Override
-	public void insert(Seller o) {
+	public void insert() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void update(Seller o) {
+	public void update() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void deleteById(Seller o, int id) {
+	public void deleteById(int id) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Seller findById(Seller o, int id) {
+	public Seller findById(int id) {
 		PreparedStatement st = null;
 		ResultSet rs = null;
 		try {
@@ -80,7 +80,7 @@ public class SellerDaoJDBC implements DefaultDao<Seller> {
 	}
 
 	@Override
-	public List<Seller> findAll(Seller o) {
+	public List<Seller> findAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
