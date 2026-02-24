@@ -8,7 +8,7 @@ import model.entities.Department;
 public class DepartmentDaoJDBC implements DefaultDao<Department> {
 
 	@Override
-	public void insert() {
+	public void insert(Department dep) {
 		// TODO Auto-generated method stub
 		
 	}
