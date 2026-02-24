@@ -14,7 +14,7 @@ public class DepartmentDaoJDBC implements DefaultDao<Department> {
 	}
 
 	@Override
-	public void update() {
+	public void update(Department dep) {
 		// TODO Auto-generated method stub
 		
 	}
